@@ -14,7 +14,7 @@
 		681E9ADA202C4D44009680FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681E9AD8202C4D44009680FA /* LaunchScreen.storyboard */; };
 		681E9AE5202C4D44009680FA /* Count0208Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E9AE4202C4D44009680FA /* Count0208Tests.swift */; };
 		681E9AF0202C4D44009680FA /* Count0208UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E9AEF202C4D44009680FA /* Count0208UITests.swift */; };
-		68251362202D777F00954E31 /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 68251361202D777F00954E31 /* haikei.png */; };
+		68B9FB0F205037B700E55844 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68B9FB0E205037B700E55844 /* haikei.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		681E9AEB202C4D44009680FA /* Count0208UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Count0208UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681E9AEF202C4D44009680FA /* Count0208UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count0208UITests.swift; sourceTree = "<group>"; };
 		681E9AF1202C4D44009680FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68251361202D777F00954E31 /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = haikei.png; path = ../../../Documents/haikei.png; sourceTree = "<group>"; };
+		68B9FB0E205037B700E55844 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +101,9 @@
 			children = (
 				681E9ACF202C4D44009680FA /* AppDelegate.swift */,
 				681E9AD1202C4D44009680FA /* ViewController.swift */,
+				68B9FB0E205037B700E55844 /* haikei.jpg */,
 				681E9AD3202C4D44009680FA /* Main.storyboard */,
 				681E9AD6202C4D44009680FA /* Assets.xcassets */,
-				68251361202D777F00954E31 /* haikei.png */,
 				681E9AD8202C4D44009680FA /* LaunchScreen.storyboard */,
 				681E9ADB202C4D44009680FA /* Info.plist */,
 			);
@@ -235,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68251362202D777F00954E31 /* haikei.png in Resources */,
+				68B9FB0F205037B700E55844 /* haikei.jpg in Resources */,
 				681E9ADA202C4D44009680FA /* LaunchScreen.storyboard in Resources */,
 				681E9AD7202C4D44009680FA /* Assets.xcassets in Resources */,
 				681E9AD5202C4D44009680FA /* Main.storyboard in Resources */,

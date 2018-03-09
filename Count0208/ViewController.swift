@@ -48,4 +48,9 @@ class ViewController: UIViewController {
         number = number / 2
         label.text = String(number)
     }
+    
+    @IBAction func clear() {
+        number = 0
+        label.text = String(number)
+    }
 }
