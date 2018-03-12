@@ -12,10 +12,17 @@ class ViewController: UIViewController {
 
     var number: Int = 0
     @IBOutlet var label: UILabel!
+    @IBOutlet var button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // 追加
+        // 枠線の色
+        self.button.layer.borderColor = UIColor.white.cgColor
+        // 枠線の太さ
+        self.button.layer.borderWidth = 5
     }
 
     override func didReceiveMemoryWarning() {
