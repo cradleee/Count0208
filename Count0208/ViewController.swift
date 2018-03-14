@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var number: Int = 0
     @IBOutlet var label: UILabel!
     @IBOutlet var button: UIButton!
+    @IBOutlet var goalLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +49,13 @@ class ViewController: UIViewController {
         
        Changecolor()
         
+        if number >= 100 {
+            goalLabel.text = "GOAL"
+        }
+        else {
+            goalLabel.text = ""
+        }
+        
      }
     
     @IBAction func minus() {
@@ -81,4 +89,6 @@ class ViewController: UIViewController {
         Changecolor()
         
     }
+    
+    
 }
