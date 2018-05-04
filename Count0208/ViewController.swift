@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         self.button.layer.borderColor = UIColor.white.cgColor
         // 枠線の太さ
         self.button.layer.borderWidth = 5
+        
     }
 
     override func didReceiveMemoryWarning() {

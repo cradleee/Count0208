@@ -14,7 +14,8 @@
 		681E9ADA202C4D44009680FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681E9AD8202C4D44009680FA /* LaunchScreen.storyboard */; };
 		681E9AE5202C4D44009680FA /* Count0208Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E9AE4202C4D44009680FA /* Count0208Tests.swift */; };
 		681E9AF0202C4D44009680FA /* Count0208UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E9AEF202C4D44009680FA /* Count0208UITests.swift */; };
-		68B9FB0F205037B700E55844 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68B9FB0E205037B700E55844 /* haikei.jpg */; };
+		68284C0F209BF89100CA23FB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 68284C0E209BF89000CA23FB /* icon.png */; };
+		68284C11209BF8CF00CA23FB /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 68284C10209BF8CF00CA23FB /* haikei.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		681E9AEB202C4D44009680FA /* Count0208UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Count0208UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681E9AEF202C4D44009680FA /* Count0208UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count0208UITests.swift; sourceTree = "<group>"; };
 		681E9AF1202C4D44009680FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68B9FB0E205037B700E55844 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = SOURCE_ROOT; };
+		68284C0E209BF89000CA23FB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		68284C10209BF8CF00CA23FB /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		681E9ACE202C4D44009680FA /* Count0208 */ = {
 			isa = PBXGroup;
 			children = (
+				68284C0E209BF89000CA23FB /* icon.png */,
 				681E9ACF202C4D44009680FA /* AppDelegate.swift */,
 				681E9AD1202C4D44009680FA /* ViewController.swift */,
-				68B9FB0E205037B700E55844 /* haikei.jpg */,
 				681E9AD3202C4D44009680FA /* Main.storyboard */,
+				68284C10209BF8CF00CA23FB /* haikei.png */,
 				681E9AD6202C4D44009680FA /* Assets.xcassets */,
 				681E9AD8202C4D44009680FA /* LaunchScreen.storyboard */,
 				681E9ADB202C4D44009680FA /* Info.plist */,
@@ -191,7 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "釜野由里佳";
 				TargetAttributes = {
 					681E9ACB202C4D44009680FA = {
@@ -235,8 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B9FB0F205037B700E55844 /* haikei.jpg in Resources */,
+				68284C0F209BF89100CA23FB /* icon.png in Resources */,
 				681E9ADA202C4D44009680FA /* LaunchScreen.storyboard in Resources */,
+				68284C11209BF8CF00CA23FB /* haikei.png in Resources */,
 				681E9AD7202C4D44009680FA /* Assets.xcassets in Resources */,
 				681E9AD5202C4D44009680FA /* Main.storyboard in Resources */,
 			);
@@ -333,6 +337,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -340,6 +345,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -390,6 +396,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -397,6 +404,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
